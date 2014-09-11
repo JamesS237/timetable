@@ -3,180 +3,180 @@ var timetable =
   [ // Week 1
     [ // Monday Week 1
       {
-        subject: "French",
-        room: "PA03"
+        subject: "HQ",
+        room: "HQ"
+      },
+      {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Sociology",
+        room: "N26"
+      },
+      {
+        subject: "Maths",
+        room: "N02"
+      },
+      {
+        subject: "The Rite Journey",
+        room: "PA04"
+      }
+    ],
+    [ // Tuesday Week 1
+      {
+        subject: "KPM",
+        room: "P1"
+      },
+      {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Maths",
+        room: "N02"
       },
       {
         subject: "English",
-        room: "M18"
+        room: "N26"
       },
       {
-        subject: "Engineering Design",
-        room: "Pub"
+        subject: "English",
+        room: "N28"
+      }
+    ],
+    [ // Wednesday Week 1
+      {
+        subject: "Sociology",
+        room: "PA04"
+      },
+      {
+        subject: "Sociology",
+        room: "PA04"
+      },
+      {
+        subject: "Maths",
+        room: "PA04"
+      },
+      {
+        subject: "Drama",
+        room: "Black Box"
+      },
+      {
+        subject: "Geography",
+        room: "M18"
+      }
+    ],
+    [ // Thursday Week 1
+      {
+        subject: "HQ",
+        room: "HQ"
+      },
+      {
+        subject: "Geography",
+        room: "M18"
       },
       {
         subject: "English",
         room: "N28"
       },
       {
-        subject: "Latin",
-        room: "Above Black Box"
-      }
-    ],
-    [ // Tuesday Week 1
-      {
-        subject: "KPM",
-        room: "PAO4"
-      },
-      {
-        subject: "Drama",
-        room: "Black Box"
-      },
-      {
-        subject: "English",
-        room: "PA03"
-      },
-      {
         subject: "Science",
-        room: "N24"
-      },
-      {
-        subject: "Maths",
-        room: "N17"
-      }
-    ],
-    [ // Wednesday Week 1
-      {
-        subject: "Engineering Design",
-        room: "Pub"
-      },
-      {
-        subject: "Engineering Design",
-        room: "Pub"
-      },
-      {
-        subject: "Maths",
-        room: "N16"
-      },
-      {
-        subject: "Science",
-        room: "N24"
-      },
-      {
-        subject: "English",
         room: "N14"
-      }
-    ],
-    [ // Thursday Week 1
-      {
-        subject: "French",
-        room: "PA03"
       },
       {
         subject: "PE",
-        room: "Gym"
-      },
-      {
-        subject: "Science",
-        room: "N24"
-      },
-      {
-        subject: "Drama",
-        room: "Black Box"
-      },
-      {
-        subject: "Maths",
-        room: "N15"
+        room: "G1"
       },
     ],
     [ // Friday Week 1
       {
-        subject: "Maths",
-        room: "N15"
+        subject: "Science",
+        room: "N14"
       },
       {
         subject: "KPM",
-        room: "PA04"
+        room: "P1"
+      },
+      {
+        subject: "English",
+        room: "N27"
       },
       {
         subject: "Geography",
         room: "M18"
       },
       {
-        subject: "Geography",
-        room: "PA04"
-      },
-      {
         subject: "Science",
-        room: "N24"
+        room: "N14"
       },
     ]
   ],
   [ // Week 2
     [ // Monday Week 2
       {
-        subject: "Science",
-        room: "N24"
-      },
-      {
-        subject: "Latin",
-        room: "Above Black Box"
-      },
-      {
-        subject: "Extension Maths",
-        room: "M17"
-      },
-      {
         subject: "English",
-        room: "N25"
+        room: "LiFi"
       },
       {
-        subject: "Geography",
-        room: "M17"
-      }
-    ],
-    [ // Tuesday Week 2
+        subject: "The Rite Journey",
+        room: "PA04"
+      },
       {
         subject: "Drama",
         room: "Black Box"
       },
       {
         subject: "Geography",
-        room: "N18"
+        room: "M18"
       },
       {
         subject: "Science",
-        room: "N24"
-      },
+        room: "N14"
+      }
+    ],
+    [ // Tuesday Week 2
       {
         subject: "Maths",
-        room: "N16"
+        room: "N15"
       },
       {
-        subject: "Engineering Design",
-        room: "Pub"
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Geography",
+        room: "PA03"
+      },
+      {
+        subject: "English",
+        room: "PA04"
+      },
+      {
+        subject: "Sociology",
+        room: "PA04"
       }
     ],
     [ // Wednesday Week 2
       {
-        subject: "Engineering Design",
-        room: "Pub"
-      },
-      {
-        subject: "Geography",
-        room: "PA06"
-      },
-      {
-        subject: "French",
-        room: "PA03"
+        subject: "Sociology",
+        room: "N02"
       },
       {
         subject: "Maths",
-        room: "N16"
+        room: "N14"
       },
       {
-        subject: "English",
-        room: "N12"
+        subject: "HQ",
+        room: "HQ"
+      },
+      {
+        subject: "Drama",
+        room: "Black Box"
+      },
+      {
+        subject: "Science",
+        room: "N14"
       }
     ],
     [ // Thursday Week 2
@@ -189,38 +189,38 @@ var timetable =
         room: "Gym"
       },
       {
-        subject: "Latin",
-        room: "Above Black Box"
+        subject: "The Rite Journey",
+        room: "PA04"
       },
       {
-        subject: "Science",
-        room: "N24"
+        subject: "Maths",
+        room: "N17"
       },
       {
-        subject: "Geography",
-        room: "PA02"
+        subject: "Maths",
+        room: "M12"
       }
     ],
     [ // Friday Week 2
       {
         subject: "English",
-        room: "N26"
+        room: "N27"
       },
       {
-        subject: "Drama",
-        room: "Black Box"
+        subject: "Geography",
+        room: "M06"
       },
       {
-        subject: "French",
-        room: "PA03"
+        subject: "HQ",
+        room: "HQ"
       },
       {
-        subject: "French",
-        room: "PA03"
+        subject: "HQ",
+        room: "HQ"
       },
       {
         subject: "KPM",
-        room: "PA04"
+        room: "P1"
       }
     ]
   ]
@@ -319,14 +319,15 @@ var timetable =
 
   var shortenings = {
     'PE': 'PE',
-    'Latin': 'LAT',
     'English': 'ENG',
     'Maths': 'MATH',
     'Science': 'SCI',
-    'French': 'FRE',
     'Drama': 'DRA',
-    'Engineering Design': 'DES',
-    'KPM': 'KPM'
+    'Sociology': 'SOC',
+    'KPM': 'KPM',
+    'HQ': 'HQ',
+    'Geography': 'GEO',
+    'The Rite Journey': 'TRJ'
   };
 
   for(var i = 0; i < 5; i++) {
