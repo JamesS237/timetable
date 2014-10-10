@@ -232,7 +232,18 @@ var Timetable = {
     now: new Date(),
     day: 24 * 60 * 60 * 1000,
     start: new Date(2014, 9, 7),
-    days: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+    days: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+    shortenings: {
+      'PE': 'PE',
+      'Latin': 'LAT',
+      'English': 'ENG',
+      'Maths': 'MATH',
+      'Science': 'SCI',
+      'French': 'FRE',
+      'Drama': 'DRA',
+      'Engineering Design': 'DES',
+      'KPM': 'KPM'
+    }
   },
 
   currentPeriod: function () {
@@ -304,44 +315,21 @@ var Timetable = {
     } else {
       return timetable[currentCycle()][currentDay()][currentPeriod()];
     }
-  }
+  },
 
-}
-
-console.log(Timetable.currentCycle());
-
-/*
-  function getCurrentClass() {
-    var now = new Date();
-    if(currentDay() === null) {
-      return timetable[currentCycle()][0][0];
-    } else {
-      return timetable[currentCycle()][currentDay()][currentPeriod()];
-    }
-  };
-
-  function getNextClass() {
+  nextClass: function () {
     var now = new Date();
     if(currentDay() === null) {
       return timetable[currentCycle()][0][1];
     } else {
       return timetable[currentCycle()][currentDay()][currentPeriod() + 1];
     }
-  };
+  },
 
+  render: function () {
   var classes = timetable[currentCycle()][currentDay() || 0];
 
-  var shortenings = {
-    'PE': 'PE',
-    'Latin': 'LAT',
-    'English': 'ENG',
-    'Maths': 'MATH',
-    'Science': 'SCI',
-    'French': 'FRE',
-    'Drama': 'DRA',
-    'Engineering Design': 'DES',
-    'KPM': 'KPM'
-  };
+  var
 
   for(var i = 0; i < 5; i++) {
     document.getElementsByClassName('box')[i].innerHTML = shortenings[classes[i]."subject"];
@@ -350,4 +338,5 @@ console.log(Timetable.currentCycle());
   document.getElementsByClassName('current-class')[0].innerHTML = getCurrentClass().subject + ' in ' + getCurrentClass().room;
   document.getElementsByClassName('next-class')[0].innerHTML = getNextClass().subject + ' in ' + getNextClass().room;
 
-  */
+  }
+}
