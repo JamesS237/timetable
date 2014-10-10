@@ -20,7 +20,7 @@ var Timetable = {
         },
         {
           subject: "Latin",
-          room: "Upper PA"
+          room: "AVO"
         }
       ],
       [ // Tuesday Week 1
@@ -30,7 +30,7 @@ var Timetable = {
         },
         {
           subject: "Drama",
-          room: "Black Box"
+          room: "PA01"
         },
         {
           subject: "English",
@@ -82,7 +82,7 @@ var Timetable = {
         },
         {
           subject: "Drama",
-          room: "Black Box"
+          room: "PA01"
         },
         {
           subject: "Maths",
@@ -120,7 +120,7 @@ var Timetable = {
         },
         {
           subject: "Latin",
-          room: "Upper PA"
+          room: "AVO"
         },
         {
           subject: "Maths Ext.",
@@ -138,7 +138,7 @@ var Timetable = {
       [ // Tuesday Week 2
         {
           subject: "Drama",
-          room: "Black Box"
+          room: "PA01"
         },
         {
           subject: "Geography",
@@ -190,7 +190,7 @@ var Timetable = {
         },
         {
           subject: "Latin",
-          room: "Upper PA"
+          room: "AVO"
         },
         {
           subject: "Science",
@@ -208,7 +208,7 @@ var Timetable = {
         },
         {
           subject: "Drama",
-          room: "Black Box"
+          room: "PA01"
         },
         {
           subject: "French",
