@@ -1,7 +1,5 @@
 var Timetable = {
-
-  data:
-  [
+  data: [
     [ // Week 1
       [ // Monday Week 1
         {
@@ -238,6 +236,8 @@ var Timetable = {
       'Latin': 'LAT',
       'English': 'ENG',
       'Maths': 'MATH',
+      'Extension Maths': 'EXT',
+      'Geography': 'GEO',
       'Science': 'SCI',
       'French': 'FRE',
       'Drama': 'DRA',
@@ -318,25 +318,27 @@ var Timetable = {
   },
 
   nextClass: function () {
-    var now = new Date();
     if(currentDay() === null) {
-      return timetable[currentCycle()][0][1];
+      return this.data[this.currentCycle()][0][1];
     } else {
-      return timetable[currentCycle()][currentDay()][currentPeriod() + 1];
+      return this.data[this.currentCycle()][this.currentDay()][this.currentPeriod() + 1];
     }
   },
 
   render: function () {
-  var classes = timetable[currentCycle()][currentDay() || 0];
+    var classes = this.data[this.currentCycle()][this.currentDay()];
+    console.log(classes);
 
-  var
+    for(var i = 0; i < 5; i++) {
+      document.getElementsByClassName('row')[i].innerHTML = this.util.shortenings[classes[i].subject];
+    }
 
-  for(var i = 0; i < 5; i++) {
-    document.getElementsByClassName('box')[i].innerHTML = shortenings[classes[i]."subject"];
-  }
-
-  document.getElementsByClassName('current-class')[0].innerHTML = getCurrentClass().subject + ' in ' + getCurrentClass().room;
-  document.getElementsByClassName('next-class')[0].innerHTML = getNextClass().subject + ' in ' + getNextClass().room;
+    document.getElementsByClassName('current-class')[0].innerHTML = getCurrentClass().subject + ' in ' + getCurrentClass().room;
+    document.getElementsByClassName('next-class')[0].innerHTML = getNextClass().subject + ' in ' + getNextClass().room;
 
   }
 }
+
+document.addEventListener('DOMContentLoaded', function(){
+  Timetable.render();
+});
