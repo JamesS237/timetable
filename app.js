@@ -11,7 +11,7 @@ var Timetable = {
           room: "M18"
         },
         {
-          subject: "Engineering Design",
+          subject: "Engineering",
           room: "Pub"
         },
         {
@@ -20,13 +20,13 @@ var Timetable = {
         },
         {
           subject: "Latin",
-          room: "Above Black Box"
+          room: "Upper PA"
         }
       ],
       [ // Tuesday Week 1
         {
           subject: "KPM",
-          room: "PAO4"
+          room: "Pub"
         },
         {
           subject: "Drama",
@@ -47,11 +47,11 @@ var Timetable = {
       ],
       [ // Wednesday Week 1
         {
-          subject: "Engineering Design",
+          subject: "Engineering",
           room: "Pub"
         },
         {
-          subject: "Engineering Design",
+          subject: "Engineering",
           room: "Pub"
         },
         {
@@ -96,7 +96,7 @@ var Timetable = {
         },
         {
           subject: "KPM",
-          room: "PA04"
+          room: "Pub"
         },
         {
           subject: "Geography",
@@ -120,10 +120,10 @@ var Timetable = {
         },
         {
           subject: "Latin",
-          room: "Above Black Box"
+          room: "Upper PA"
         },
         {
-          subject: "Extension Maths",
+          subject: "Maths Ext.",
           room: "M17"
         },
         {
@@ -153,13 +153,13 @@ var Timetable = {
           room: "N16"
         },
         {
-          subject: "Engineering Design",
+          subject: "Engineering",
           room: "Pub"
         }
       ],
       [ // Wednesday Week 2
         {
-          subject: "Engineering Design",
+          subject: "Engineering",
           room: "Pub"
         },
         {
@@ -190,7 +190,7 @@ var Timetable = {
         },
         {
           subject: "Latin",
-          room: "Above Black Box"
+          room: "Upper PA"
         },
         {
           subject: "Science",
@@ -220,7 +220,7 @@ var Timetable = {
         },
         {
           subject: "KPM",
-          room: "PA04"
+          room: "Pub"
         }
       ]
     ]
@@ -241,7 +241,7 @@ var Timetable = {
       'Science': 'SCI',
       'French': 'FRE',
       'Drama': 'DRA',
-      'Engineering Design': 'DES',
+      'Engineering': 'DES',
       'KPM': 'KPM'
     }
   },
@@ -330,11 +330,14 @@ var Timetable = {
     console.log(classes);
 
     for(var i = 0; i < 5; i++) {
-      document.getElementsByClassName('row')[i].innerHTML = this.util.shortenings[classes[i].subject];
+      document.getElementsByClassName('row')[i].innerHTML = '<span class="subject">' + classes[i].subject + '</span>' + '<span class="room">' + classes[i].room + '</span>';
+      if(this.currentPeriod() === i) {
+        document.getElementsByClassName('row')[i].id = 'active';
+      }
     }
 
-    document.getElementsByClassName('current-class')[0].innerHTML = getCurrentClass().subject + ' in ' + getCurrentClass().room;
-    document.getElementsByClassName('next-class')[0].innerHTML = getNextClass().subject + ' in ' + getNextClass().room;
+    // document.getElementsByClassName('current-class')[0].innerHTML = this.currentClass().subject + ' in ' + getCurrentClass().room;
+    // document.getElementsByClassName('next-class')[0].innerHTML = this.cgetNextClass().subject + ' in ' + getNextClass().room;
 
   }
 }
