@@ -14,19 +14,6 @@ body {
   margin: 0;
 }
 
-span.current-class {
-  color: #bd0413;
-  font-size: 140px;
-  vertical-align: center;
-  font-family: Arial;
-}
-
-span.next-class {
-  color: #008420;
-  font-size: 140px;
-  text-align: center;
-  font-family: Arial;
-}
 
 
 .row {
@@ -36,7 +23,7 @@ span.next-class {
   width: 100%;
   height: 17.5%;
   font-family: 'Open Sans';
-  font-size: 110px;
+  font-size: 120px;
   background-color: #012031;
 }
 
@@ -47,9 +34,11 @@ span.next-class {
 }
 
 .subject {
+  margin-top: 30px;
   float: left;
 }
 
 .room {
+  margin-top: 30px;
   float: right;
 }
