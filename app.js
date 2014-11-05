@@ -343,4 +343,14 @@ var Timetable = {
 
 document.addEventListener('DOMContentLoaded', function(){
   Timetable.render();
+  
+    console.log(
+      (Timetable.util.days[Timetable.currentDay()] + ", Week " + (Timetable.currentCycle() + 1) )
+      + ": \n"
+      + Timetable.data[Timetable.currentCycle()][Timetable.currentDay()].map(function(i){
+          return i.subject + " in " + i.room
+      }).reduce(function(a, b){
+        return a + "\n" + b
+      }, "")
+    )
 });
