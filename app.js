@@ -348,11 +348,13 @@ document.addEventListener('DOMContentLoaded', function(){
   Timetable.render();
   
     log(
-      ("_" + Timetable.util.days[Timetable.currentDay()] + ", Week " + (Timetable.currentCycle() + 1) + ":_\n" )  //bold
+      "\n"
+      +("_" + Timetable.util.days[Timetable.currentDay()] + ", Week " + (Timetable.currentCycle() + 1) + ":_\n" )  //bold
       + Timetable.data[Timetable.currentCycle()][Timetable.currentDay()].map(function(i){
           return "*" + i.subject + "* in *" + i.room + "*"
       }).reduce(function(a, b){
         return a + "\n" + b
       }, "")
+      +"\n"
     )
 });
