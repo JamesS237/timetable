@@ -6,7 +6,7 @@ var Timetable = {
   [ // Week 1
     [ // Monday Week 1
       {
-        subject: "Sociology (1/2)",
+        subject: "Sociology",
         room: "N14"
       },
       {
@@ -28,7 +28,7 @@ var Timetable = {
     ],
     [ // Tuesday Week 1
       {
-        subject: "Business Management (1/2)",
+        subject: "Business Man.",
         room: "M17"
       },
       {
@@ -50,7 +50,7 @@ var Timetable = {
     ],
     [ // Wednesday Week 1
       {
-        subject: "Business Management (1/2)",
+        subject: "Business Man.",
         room: "M17"
       },
       {
@@ -94,11 +94,11 @@ var Timetable = {
     ],
     [ // Friday Week 1
       {
-        subject: "Sociology (1/2)",
+        subject: "Sociology",
         room: "PA04"
       },
       {
-        subject: "Sociology (1/2)",
+        subject: "Sociology",
         room: "PA04"
       },
       {
@@ -110,7 +110,7 @@ var Timetable = {
         room: "Gym"
       },
       {
-        subject: "Business Management",
+        subject: "Business Man.",
         room: "M16"
       },
     ]
@@ -118,7 +118,7 @@ var Timetable = {
   [ // Week 2
     [ // Monday Week 2
       {
-        subject: "Sociology (1/2)",
+        subject: "Sociology",
         room: "N03"
       },
       {
@@ -144,7 +144,7 @@ var Timetable = {
         room: "M16"
       },
       {
-        subject: "Business Management (1/2)",
+        subject: "Business Man.",
         room: "MO6"
       },
       {
@@ -174,7 +174,7 @@ var Timetable = {
         room: "N14"
       },
       {
-        subject: "Sociology (1/2)",
+        subject: "Sociology",
         room: "N02"
       },
       {
@@ -196,7 +196,7 @@ var Timetable = {
         room: "N14"
       },
       {
-        subject: "Business Management (1/2)",
+        subject: "Business Man.",
         room: "M05"
       },
       {
@@ -210,7 +210,7 @@ var Timetable = {
         room: "N14"
       },
       {
-        subject: "Business Management (1/2)",
+        subject: "Business Man.",
         room: "M17"
       },
       {
@@ -222,7 +222,7 @@ var Timetable = {
         room: "N28"
       },
       {
-        subject: "Sociology (1/2)",
+        subject: "Sociology",
         room: "PA06"
       }
     ]
