@@ -6,228 +6,228 @@ var Timetable = {
   [ // Week 1
     [ // Monday Week 1
       {
-        subject: "HQ",
-        room: "HQ"
-      },
-      {
-        subject: "Science",
+        subject: "Sociology (1/2)",
         room: "N14"
       },
       {
-        subject: "Sociology",
-        room: "N26"
-      },
-      {
-        subject: "Maths",
-        room: "N02"
-      },
-      {
-        subject: "The Rite Journey",
-        room: "PA04"
-      }
-    ],
-    [ // Tuesday Week 1
-      {
-        subject: "KPM",
-        room: "P1"
-      },
-      {
-        subject: "Science",
-        room: "N14"
-      },
-      {
-        subject: "Maths",
-        room: "N02"
-      },
-      {
-        subject: "English",
-        room: "N26"
-      },
-      {
-        subject: "English",
-        room: "N28"
-      }
-    ],
-    [ // Wednesday Week 1
-      {
-        subject: "Sociology",
-        room: "PA04"
-      },
-      {
-        subject: "Sociology",
-        room: "PA04"
-      },
-      {
-        subject: "Maths",
-        room: "PA04"
-      },
-      {
-        subject: "Drama",
-        room: "Black Box"
-      },
-      {
-        subject: "Geography",
-        room: "M18"
-      }
-    ],
-    [ // Thursday Week 1
-      {
-        subject: "HQ",
-        room: "HQ"
-      },
-      {
-        subject: "Geography",
-        room: "M18"
-      },
-      {
-        subject: "English",
-        room: "N28"
-      },
-      {
-        subject: "Science",
-        room: "N14"
-      },
-      {
-        subject: "PE",
-        room: "G1"
-      },
-    ],
-    [ // Friday Week 1
-      {
-        subject: "Science",
-        room: "N14"
-      },
-      {
-        subject: "KPM",
-        room: "P1"
-      },
-      {
-        subject: "English",
+        subject: "History",
         room: "N27"
-      },
-      {
-        subject: "Geography",
-        room: "M18"
-      },
-      {
-        subject: "Science",
-        room: "N14"
-      },
-    ]
-  ],
-  [ // Week 2
-    [ // Monday Week 2
-      {
-        subject: "English",
-        room: "LiFi"
-      },
-      {
-        subject: "The Rite Journey",
-        room: "PA04"
-      },
-      {
-        subject: "Drama",
-        room: "Black Box"
-      },
-      {
-        subject: "Geography",
-        room: "M18"
-      },
-      {
-        subject: "Science",
-        room: "N14"
-      }
-    ],
-    [ // Tuesday Week 2
-      {
-        subject: "Maths",
-        room: "N15"
-      },
-      {
-        subject: "Science",
-        room: "N14"
-      },
-      {
-        subject: "Geography",
-        room: "PA03"
-      },
-      {
-        subject: "English",
-        room: "PA04"
-      },
-      {
-        subject: "Sociology",
-        room: "PA04"
-      }
-    ],
-    [ // Wednesday Week 2
-      {
-        subject: "Sociology",
-        room: "N02"
-      },
-      {
-        subject: "Maths",
-        room: "N14"
-      },
-      {
-        subject: "HQ",
-        room: "HQ"
-      },
-      {
-        subject: "Drama",
-        room: "Black Box"
-      },
-      {
-        subject: "Science",
-        room: "N14"
-      }
-    ],
-    [ // Thursday Week 2
-      {
-        subject: "PE",
-        room: "Gym"
-      },
-      {
-        subject: "PE",
-        room: "Gym"
-      },
-      {
-        subject: "The Rite Journey",
-        room: "PA04"
       },
       {
         subject: "Maths",
         room: "N17"
       },
       {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "English",
+        room: "N25"
+      }
+    ],
+    [ // Tuesday Week 1
+      {
+        subject: "Business Management (1/2)",
+        room: "M17"
+      },
+      {
         subject: "Maths",
-        room: "M12"
+        room: "N24"
+      },
+      {
+        subject: "History",
+        room: "PA03"
+      },
+      {
+        subject: "Commerce",
+        room: "M07"
+      },
+      {
+        subject: "English",
+        room: "N27"
+      }
+    ],
+    [ // Wednesday Week 1
+      {
+        subject: "Business Management (1/2)",
+        room: "M17"
+      },
+      {
+        subject: "Careers",
+        room: "PA06"
+      },
+      {
+        subject: "Commerce",
+        room: "PA03"
+      },
+      {
+        subject: "English",
+        room: "N28"
+      },
+      {
+        subject: "Science",
+        room: "N14"
+      }
+    ],
+    [ // Thursday Week 1
+      {
+        subject: "English",
+        room: "N28"
+      },
+      {
+        subject: "History",
+        room: "PA03"
+      },
+      {
+        subject: "Personal Development",
+        room: "N03"
+      },
+      {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Maths",
+        room: "N17"
+      },
+    ],
+    [ // Friday Week 1
+      {
+        subject: "Sociology (1/2)",
+        room: "PA04"
+      },
+      {
+        subject: "Sociology (1/2)",
+        room: "PA04"
+      },
+      {
+        subject: "Physical Education",
+        room: "Gym"
+      },
+      {
+        subject: "Physical Education",
+        room: "Gym"
+      },
+      {
+        subject: "Business Management",
+        room: "M16"
+      },
+    ]
+  ],
+  [ // Week 2
+    [ // Monday Week 2
+      {
+        subject: "Sociology (1/2)",
+        room: "N03"
+      },
+      {
+        subject: "History",
+        room: "N16"
+      },
+      {
+        subject: "English",
+        room: "N26"
+      },
+      {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Maths",
+        room: "N17"
+      }
+    ],
+    [ // Tuesday Week 2
+      {
+        subject: "Commerce",
+        room: "M16"
+      },
+      {
+        subject: "Business Management (1/2)",
+        room: "MO6"
+      },
+      {
+        subject: "English",
+        room: "N26"
+      },
+      {
+        subject: "Maths",
+        room: "PA06"
+      },
+      {
+        subject: "History",
+        room: "PA03"
+      }
+    ],
+    [ // Wednesday Week 2
+      {
+        subject: "Commerce",
+        room: "M07"
+      },
+      {
+        subject: "Commerce",
+        room: "M07"
+      },
+      {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Sociology (1/2)",
+        room: "N02"
+      },
+      {
+        subject: "Personal Development",
+        room: "N16"
+      }
+    ],
+    [ // Thursday Week 2
+      {
+        subject: "Maths",
+        room: "PA05"
+      },
+      {
+        subject: "Maths",
+        room: "PA05"
+      },
+      {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Business Management (1/2)",
+        room: "M05"
+      },
+      {
+        subject: "Commerce",
+        room: "M16"
       }
     ],
     [ // Friday Week 2
       {
+        subject: "Science",
+        room: "N14"
+      },
+      {
+        subject: "Business Management (1/2)",
+        room: "M17"
+      },
+      {
+        subject: "History",
+        room: "PA03"
+      },
+      {
         subject: "English",
-        room: "N27"
+        room: "N28"
       },
       {
-        subject: "Geography",
-        room: "M06"
-      },
-      {
-        subject: "HQ",
-        room: "HQ"
-      },
-      {
-        subject: "HQ",
-        room: "HQ"
-      },
-      {
-        subject: "KPM",
-        room: "P1"
+        subject: "Sociology (1/2)",
+        room: "PA06"
       }
     ]
   ]
-    ],
+],
 
   util: {
     now: new Date(),
@@ -346,7 +346,6 @@ var Timetable = {
 
 document.addEventListener('DOMContentLoaded', function(){
   Timetable.render();
-  
     log(
       "\n"
       +("_" + Timetable.util.days[Timetable.currentDay()] + ", Week " + (Timetable.currentCycle() + 1) + ":_\n" )  //bold
