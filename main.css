@@ -18,18 +18,18 @@ body {
 
 .row {
   float: left;
-  color: white;
+  color: #f7f7f7;
   padding: 2.75%;
   width: 100%;
   height: 17.5%;
   font-family: 'Open Sans';
   font-size: 120px;
-  background-color: #012031;
+  background-color: #2B2B2B;
 }
 
 .row#active {
-  background-color: white !important;
-  color: #012031 !important;
+  background-color: #f7f7f7 !important;
+  color: #2B2B2B !important;
 
 }
 
