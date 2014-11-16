@@ -270,7 +270,7 @@ var Timetable = {
     switch(day) {
       case 'Saturday':
       case 'Sunday':
-        number = null;
+        number = 0;
         break;
       case 'Monday':
         number = 0;
