@@ -15,7 +15,7 @@ var Timetable = {
       },
       {
         subject: "Maths",
-        room: "N17"
+        room: "N13"
       },
       {
         subject: "Science",
@@ -33,7 +33,7 @@ var Timetable = {
       },
       {
         subject: "Maths",
-        room: "N24"
+        room: "N03"
       },
       {
         subject: "History",
@@ -89,7 +89,7 @@ var Timetable = {
       },
       {
         subject: "Maths",
-        room: "N17"
+        room: "N03"
       },
     ],
     [ // Friday Week 1
@@ -135,7 +135,7 @@ var Timetable = {
       },
       {
         subject: "Maths",
-        room: "N17"
+        room: "N03"
       }
     ],
     [ // Tuesday Week 2
@@ -153,7 +153,7 @@ var Timetable = {
       },
       {
         subject: "Maths",
-        room: "PA06"
+        room: "N03"
       },
       {
         subject: "History",
@@ -185,11 +185,11 @@ var Timetable = {
     [ // Thursday Week 2
       {
         subject: "Maths",
-        room: "PA05"
+        room: "N27"
       },
       {
         subject: "Maths",
-        room: "PA05"
+        room: "N27"
       },
       {
         subject: "Science",
